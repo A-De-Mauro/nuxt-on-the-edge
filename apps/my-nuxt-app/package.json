@@ -1,0 +1,16 @@
+{
+  "name": "@ademauro/my-nuxt-app",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "NITRO_PRESET=vercel-edge nuxt build",
+    "dev": "nuxt dev"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "nuxt": "^3.0.0-rc.11"
+  }
+}
