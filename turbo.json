@@ -4,6 +4,19 @@
     "build": {
       "dependsOn": [
         "^build"
+      ]
+    },
+    "@ademauro/my-next-app#build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        ".next/**"
+      ]
+    },
+    "@ademauro/my-nuxt-app#build": {
+      "dependsOn": [
+        "^build"
       ],
       "outputs": [
         ".nuxt/**"
